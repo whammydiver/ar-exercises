@@ -10,6 +10,18 @@ puts "----------"
 
 # Your code goes here ...
 
+
+@store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
+@store1.employees.create(first_name: "Richard", last_name: "Edward", hourly_rate: 62)
+@store1.employees.create(first_name: "Jennifer", last_name: "Krantz", hourly_rate: 64)
+@store1.employees.create(first_name: "Sarah", last_name: "Cassels", hourly_rate: 58)
+@store1.employees.create(first_name: "Jonathon", last_name: "Wright", hourly_rate: 57)
+@store2.employees.create(first_name: "Xi", last_name: "Soo-Chen", hourly_rate: 63)
+@store2.employees.create(first_name: "Ariel", last_name: "Singh", hourly_rate: 92)
+@store2.employees.create(first_name: "Amir", last_name: "Khan", hourly_rate: 80)
+@store2.employees.create(first_name: "Saul", last_name: "Alvarez", hourly_rate: 25)
+@store2.employees.create(first_name: "Katie", last_name: "Taylor", hourly_rate: 41)
+
 ### Exercise 6: One-to-many association
 
 # We haven't used the Employee class (and employees table) at all yet. If you look at this table's column structure, you'll find that 
