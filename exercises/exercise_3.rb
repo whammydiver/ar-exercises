@@ -7,6 +7,11 @@ puts "----------"
 
 # Your code goes here ...
 
+
+@store3 = Store.find(3)
+@store3.destroy
+puts Store.count
+
 ### Exercise 3: Delete the third store
 
 # 1. Load the third store (into `@store3`) as you did the other two before.
